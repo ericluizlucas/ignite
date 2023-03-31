@@ -1,5 +1,5 @@
 import { Header } from './components/Header'
-import { Post } from './Post'
+import { Post } from './components/Post'
 
 import './global.css'
 import style from './App.module.css';
@@ -14,13 +14,9 @@ function App() {
       <div className={style.wrapper}>
         <Sidebar />
         <main>
-          <Post
-            author='Eric Luiz'
-            content='Starting to learn how to create a project with React and Typescript.' />
+          <Post/>
 
-          <Post
-            author='Jhonatan Martins'
-            content='Working with React projects since 2022.' />
+          <Post/>
         </main>
       </div>
 
